@@ -1,0 +1,12 @@
+<app-header></app-header>
+<app-biograph></app-biograph>
+<section class="section-posts">
+  <h2>Últimas do blog</h2>
+  <div *ngFor="let itemPost of listPosts">
+    <app-post
+      title="{{ itemPost.title }}"
+      description="{{ itemPost.description }}"
+    ></app-post>
+  </div>
+  <a class="link-see-all" href="https://www.google.com.br/" target="_blank">Ver tudo</a>
+</section>

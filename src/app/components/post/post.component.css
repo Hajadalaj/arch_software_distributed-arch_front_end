@@ -1,0 +1,16 @@
+.container-post {
+  margin-bottom: 46px;
+  width: 450px;
+}
+.container-post > h1 {
+  color: #000;
+  margin-bottom: 24px;
+}
+
+.container-post > h1:hover {
+  color: #09528a;
+}
+
+.container-post > p {
+  color: #000;
+}
